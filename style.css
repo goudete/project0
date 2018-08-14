@@ -1,0 +1,42 @@
+.title{
+  font-size: 120px;
+  text-align: center;
+  padding-top: 5%;
+  font-weight: bold;
+}
+
+body{
+  background-image: url("concreto.jpg");
+}
+
+.subtitle{
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.title, .subtitle{
+  color: white;
+  text-shadow: 2px 2px 10px black;
+  font-family: "helvetica";
+}
+
+.nav-link{
+    color: black !important;
+    letter-spacing: 5px;
+    font-size: 14px !important;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.nav-link:hover {
+  background-color: inherit !important;
+  color: yellow !important;
+}
+
+#logo{
+  width: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
