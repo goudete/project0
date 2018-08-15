@@ -5,10 +5,6 @@
   font-weight: bold;
 }
 
-body{
-  background-image: url("concreto.jpg");
-}
-
 .subtitle{
   font-size: 30px;
   font-style: italic;
@@ -20,6 +16,11 @@ body{
   color: white;
   text-shadow: 2px 2px 10px black;
   font-family: "helvetica";
+}
+
+.navbar{
+  background-color: rgb(255, 210, 40) !important;
+  height: 80px;
 }
 
 .nav-link{
@@ -35,13 +36,26 @@ body{
   color: red !important;
 }
 
-.navbar{
-  background-color: rgb(255, 210, 40) !important;
-  height: 80px;
-}
 
 #logo{
   width: 40px;
   margin-left: 40px;
   margin-top: 20px;
+}
+
+.landingPage{
+  background-image: url("concreto.jpg");
+  background-size: 1500px;
+  padding-top: 5%;
+  padding-bottom: 25%;
+  margin-top: -20px;
+}
+
+#citiesMenu{
+  padding-top:25%;
+  padding-bottom: 25%;
+}
+
+.thumb{
+  padding-top: 2%;
 }
