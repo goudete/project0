@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel=stylesheet href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <title>Clusterfuck Coffee</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="index.html">
+            <img id="logo" src="Resources/favlogo.png" alt="ClusterfuckCoffee">
+          </a>
+        </div>
+
+        <div class="navbarInterior">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#row">CITIES</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div id="map">
+        <script>
+            function myMap() {
+              var Buna = new google.maps.LatLng(19.4219,-99.1605);
+
+              var mapOptions = {
+                  center: new google.maps.LatLng(19.4, -99.13),
+                  zoom: 11,
+                  mapTypeId: google.maps.MapTypeId.ROADMAP
+              }
+              var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+              }
+
+              var marker = new google.maps.Marker({
+                position: Buna,
+                title: 'Buna'
+              });
+              marker.setMap(map);
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+      </div>
+      <div class="instagramFeed">
+        
+      </div>
+    </main>
+  </body>
+<html>

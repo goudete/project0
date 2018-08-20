@@ -20,7 +20,7 @@
 
 .navbar{
   background-color: rgb(165, 165, 165) !important;
-  height: 80px;
+  height: 65px;
 }
 
 .nav-link{
@@ -28,19 +28,19 @@
     letter-spacing: 5px;
     font-size: 14px !important;
     margin-right: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .nav-link:hover {
   background-color: inherit !important;
-  color: red !important;
+  color: yellow !important;
 }
 
 
 #logo{
   width: 40px;
   margin-left: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .landingPage{
@@ -64,4 +64,29 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 25%;
+}
+
+#about{
+  text-align: justify;
+  font-family: "helvetica";
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 15%;
+  padding-bottom: 20%;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+#signature{
+  font-family: "helvetica";
+  text-align: right;
+  font-size: 50px;
+  padding-top: 20%;
+}
+
+#map{
+  width: 65%;
+  height: 600px;
+  margin-left: 19%;
+  margin-top: 5%;
 }
